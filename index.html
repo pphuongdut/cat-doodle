@@ -24,6 +24,20 @@
                 srcset=""
             />
 
+            <div id="demo-modal" class="modal">
+                <div
+                    class="modal__content w-screen h-screen flex items-center justify-center"
+                >
+                    <img src="./assets/img/STORY/Storyy.svg" />
+
+                    <a
+                        href="#"
+                        class="modal__close top-[22%] md:top-[10%] right-[4%] md:right-[10%]"
+                        >&times;</a
+                    >
+                </div>
+            </div>
+
             <div class="z-50 w-full p-8 md:p-20 absolute top-0 left-0">
                 <div
                     class="relative border-8 border-solid border-black p-10 rounded-[50px] bg-white w-full md:w-4/5 mx-auto flex flex-col items-center justify-center gap-8 md:gap-16"
@@ -31,12 +45,14 @@
                     <div
                         class="absolute top-0 right-0 m-4 md:m-8 w-20 h-20 flex items-center justify-center rounded-xl hover:bg-gray-100 cursor-pointer"
                     >
-                        <img
-                            src="./assets/img/Button/STORY BUTTON.svg"
-                            class="w-16 h-16"
-                            alt=""
-                            srcset=""
-                        />
+                        <a href="#demo-modal">
+                            <img
+                                src="./assets/img/Button/STORY BUTTON.svg"
+                                class="w-16 h-16"
+                                alt=""
+                                srcset=""
+                            />
+                        </a>
                     </div>
                     <img
                         src="./assets/img/GIF/CAT.gif"
@@ -52,7 +68,11 @@
                     />
 
                     <div class="w-full flex items-center justify-center gap-4">
-                        <a href="" target="_blank" class="cursor-pointer">
+                        <a
+                            href=""
+                            target="_blank"
+                            class="cursor-pointer transition-all hover:-translate-y-3"
+                        >
                             <img
                                 src="./assets/img/Button/Tele.svg"
                                 class="w-24 h-24"
@@ -60,7 +80,11 @@
                                 srcset=""
                             />
                         </a>
-                        <a href="" target="_blank" class="cursor-pointer">
+                        <a
+                            href=""
+                            target="_blank"
+                            class="cursor-pointer transition-all hover:-translate-y-3"
+                        >
                             <img
                                 src="./assets/img/Button/Buy.svg"
                                 class="w-24 h-24"
@@ -68,7 +92,11 @@
                                 srcset=""
                             />
                         </a>
-                        <a href="" target="_blank" class="cursor-pointer">
+                        <a
+                            href=""
+                            target="_blank"
+                            class="cursor-pointer transition-all hover:-translate-y-3"
+                        >
                             <img
                                 src="./assets/img/Button/X.svg"
                                 class="w-24 h-24"
