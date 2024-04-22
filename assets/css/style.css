@@ -47,7 +47,7 @@ body {
 .modal__content {
     border-radius: 4px;
     position: relative;
-    max-width: 90%;
+    max-width: 1500px;
 }
 
 .modal__close {
